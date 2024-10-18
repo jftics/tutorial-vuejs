@@ -1,10 +1,14 @@
 <script setup>
-    import { ref, reactive } from 'vue'
+    import { ref, reactive, onUnmounted } from 'vue'
 
     const count = ref(0)
     const state = reactive({count:0})
     console.log(count)
     console.log(state)
+
+    onUnmounted(()=>{
+        console.log("Componente desmontado")
+    })
 </script>
 
 <template>

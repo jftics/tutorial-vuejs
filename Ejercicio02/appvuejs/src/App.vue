@@ -6,6 +6,8 @@ import componente3 from './components/componente3.vue';
 import componentePadre from './components/componentePadre.vue';
 import componenteForm from './components/componenteForm.vue';
 
+import componenteHooks from './components/componenteHooks.vue';
+
 </script>
 
 <template>
@@ -13,7 +15,8 @@ import componenteForm from './components/componenteForm.vue';
   <componente2></componente2> -->
   <!-- <componente3></componente3> -->
    <!-- <componentePadre></componentePadre> -->
-   <componenteForm></componenteForm>
+   <!-- <componenteForm></componenteForm> -->
+    <componenteHooks></componenteHooks>
 
 </template>
 
