@@ -8,6 +8,7 @@ import componenteForm from './components/componenteForm.vue';
 
 import componenteHooks from './components/componenteHooks.vue';
 import componenteComputed from './components/componenteComputed.vue';
+import componenteWatch from './components/componenteWatch.vue';
 </script>
 
 <template>
@@ -17,7 +18,8 @@ import componenteComputed from './components/componenteComputed.vue';
   <!-- <componentePadre></componentePadre> -->
   <!-- <componenteForm></componenteForm> -->
   <!-- <componenteHooks></componenteHooks> -->
-  <componenteComputed></componenteComputed>
+  <!-- <componenteComputed></componenteComputed> -->
+  <componenteWatch></componenteWatch>
 </template>
 
 
