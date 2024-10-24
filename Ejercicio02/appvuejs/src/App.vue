@@ -11,6 +11,7 @@ import componenteComputed from './components/componenteComputed.vue';
 import componenteWatch from './components/componenteWatch.vue';
 import componenteTemplateRef from './components/componenteTemplateRef.vue';
 import componenteSlot from './components/componenteSlot.vue';
+import componenteProv1 from './components/componenteProv1.vue';
 </script>
 
 <template>
@@ -23,7 +24,8 @@ import componenteSlot from './components/componenteSlot.vue';
   <!-- <componenteComputed></componenteComputed> -->
   <!-- <componenteWatch></componenteWatch> -->
   <!-- <componenteTemplateRef></componenteTemplateRef> -->
-  <componenteSlot></componenteSlot>
+  <!-- <componenteSlot></componenteSlot> -->
+  <componenteProv1></componenteProv1>
 </template>
 
 
