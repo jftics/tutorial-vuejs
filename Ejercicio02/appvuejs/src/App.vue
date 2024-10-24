@@ -10,6 +10,7 @@ import componenteHooks from './components/componenteHooks.vue';
 import componenteComputed from './components/componenteComputed.vue';
 import componenteWatch from './components/componenteWatch.vue';
 import componenteTemplateRef from './components/componenteTemplateRef.vue';
+import componenteSlot from './components/componenteSlot.vue';
 </script>
 
 <template>
@@ -21,7 +22,8 @@ import componenteTemplateRef from './components/componenteTemplateRef.vue';
   <!-- <componenteHooks></componenteHooks> -->
   <!-- <componenteComputed></componenteComputed> -->
   <!-- <componenteWatch></componenteWatch> -->
-  <componenteTemplateRef></componenteTemplateRef>
+  <!-- <componenteTemplateRef></componenteTemplateRef> -->
+  <componenteSlot></componenteSlot>
 </template>
 
 
