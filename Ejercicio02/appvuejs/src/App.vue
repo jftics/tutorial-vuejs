@@ -12,6 +12,7 @@ import componenteWatch from './components/componenteWatch.vue';
 import componenteTemplateRef from './components/componenteTemplateRef.vue';
 import componenteSlot from './components/componenteSlot.vue';
 import componenteProv1 from './components/componenteProv1.vue';
+import componenteDirectiva from './components/componenteDirectiva.vue';
 </script>
 
 <template>
@@ -25,7 +26,8 @@ import componenteProv1 from './components/componenteProv1.vue';
   <!-- <componenteWatch></componenteWatch> -->
   <!-- <componenteTemplateRef></componenteTemplateRef> -->
   <!-- <componenteSlot></componenteSlot> -->
-  <componenteProv1></componenteProv1>
+  <!-- <componenteProv1></componenteProv1> -->
+  <componenteDirectiva></componenteDirectiva>
 </template>
 
 
