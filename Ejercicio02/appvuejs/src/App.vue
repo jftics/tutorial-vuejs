@@ -13,6 +13,8 @@ import componenteTemplateRef from './components/componenteTemplateRef.vue';
 import componenteSlot from './components/componenteSlot.vue';
 import componenteProv1 from './components/componenteProv1.vue';
 import componenteDirectiva from './components/componenteDirectiva.vue';
+
+import componenteTeleport from './components/componenteTeleport.vue';
 </script>
 
 <template>
@@ -27,7 +29,8 @@ import componenteDirectiva from './components/componenteDirectiva.vue';
   <!-- <componenteTemplateRef></componenteTemplateRef> -->
   <!-- <componenteSlot></componenteSlot> -->
   <!-- <componenteProv1></componenteProv1> -->
-  <componenteDirectiva></componenteDirectiva>
+  <!-- <componenteDirectiva></componenteDirectiva> -->
+  <componenteTeleport></componenteTeleport>
 </template>
 
 
