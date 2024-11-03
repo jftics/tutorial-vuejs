@@ -15,6 +15,8 @@ import componenteProv1 from './components/componenteProv1.vue';
 import componenteDirectiva from './components/componenteDirectiva.vue';
 
 import componenteTeleport from './components/componenteTeleport.vue';
+
+import componenteRouting from './components/componenteRouting.vue';
 </script>
 
 <template>
@@ -30,7 +32,8 @@ import componenteTeleport from './components/componenteTeleport.vue';
   <!-- <componenteSlot></componenteSlot> -->
   <!-- <componenteProv1></componenteProv1> -->
   <!-- <componenteDirectiva></componenteDirectiva> -->
-  <componenteTeleport></componenteTeleport>
+  <!-- <componenteTeleport></componenteTeleport> -->
+  <componenteRouting></componenteRouting>
 </template>
 
 
