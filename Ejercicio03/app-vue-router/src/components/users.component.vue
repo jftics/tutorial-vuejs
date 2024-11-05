@@ -18,7 +18,12 @@
     <h2>Lista de usuario</h2>
     <ul>
         <li v-for="usuario in usuarios" :key="usuario.iduser">
-            {{ usuario.name }} <RouterLink :to="{name:'user', params:{iduser: usuario.iduser, name : usuario.name}}"> Ver Detalle</RouterLink>
+            {{ usuario.name }} 
+            
+            <RouterLink :to="{name:'user-profile', params:{iduser: usuario.iduser}}"> Ver Perfil</RouterLink>
+            |
+            <RouterLink :to="{name:'user-posts', params:{iduser:usuario.iduser}}"> Ver publicaciones</RouterLink>
+            
             |
             <button type="button" @click="verDetalle(usuario.iduser, usuario.name)">Ver detalle</button>
 

@@ -4,6 +4,9 @@ import loginComponent from "@/components/login.component.vue";
 import usersComponent from "@/components/users.component.vue";
 import userComponent from "@/components/user.component.vue";
 import notfoundComponent from "@/components/notfound.component.vue";
+import userProfileComponent from "@/components/user-profile.component.vue";
+import userPostsComponent from "@/components/user-posts.component.vue";
+
 const router = createRouter({
     history: createWebHistory(),
     routes:[
@@ -26,9 +29,24 @@ const router = createRouter({
         }
         ,
         {
-            path:'/user/:iduser/persona/:name',
+            path:'/userabc/:iduser',
             name: 'user',
-            component: userComponent
+            component: userComponent,
+            children:[
+                {
+                    // /user/:iduser/profile
+                    path:'profile',
+                    component: userProfileComponent,
+                    name: 'user-profile'
+                }
+                ,
+                {
+                    // /user/:iduser/posts
+                    path:'posts',
+                    component: userPostsComponent,
+                    name: 'user-posts'
+                }
+            ]
         }
     ]
 })
