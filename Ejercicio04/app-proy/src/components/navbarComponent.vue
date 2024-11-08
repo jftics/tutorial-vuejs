@@ -8,6 +8,7 @@
                         <RouterLink to="/"> Inicio</RouterLink>
                         <RouterLink to="/contact"> Contactos</RouterLink>
                         <RouterLink to="/resource"> Recursos</RouterLink>
+                        <RouterLink to="/login"> Login</RouterLink>
                 </nav>
         </div>
         
