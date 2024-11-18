@@ -2,6 +2,8 @@
     import { reactive, ref } from 'vue';
     import { loginService } from '@/services/authService';
     import { sesionSetService } from '@/services/sesionService';
+    import { useRouter } from 'vue-router';
+    const router = useRouter()
     const loading = ref(false)
     const formLogin=reactive({
         username:null,
@@ -18,6 +20,7 @@
                 // guardar el token
                 sesionSetService('auth-token', data.accessToken)
                 // redirigir a una pagina interna
+                router.push({path:'/admin/users'})
             }
             else{
                 alert(data.error)
